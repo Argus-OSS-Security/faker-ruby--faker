@@ -7,17 +7,18 @@
 
 name: Tests
 
-on:
-  push:
-    branches:
-      - main
-      - 'lazy-loading-beta'
-  pull_request:
-    branches:
-      - main
-      - 'lazy-loading-beta'
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
+#       - 'lazy-loading-beta'
+#   pull_request:
+#     branches:
+#       - main
+#       - 'lazy-loading-beta'
+#   workflow_dispatch:
+# 
 permissions:
   contents: read
   pull-requests: read
